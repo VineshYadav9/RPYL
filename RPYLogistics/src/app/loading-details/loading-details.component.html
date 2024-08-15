@@ -1,0 +1,60 @@
+<div style="margin: 5%;">
+    <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+        <div class="row">
+            <div class="col-sm-4 col-pad">
+                <label for="product">Vehicle No: </label>
+                <input id="Vehicle" type="text" formControlName="vehicle" class="form-control"> 
+            </div>
+            <div class="col-sm-4 col-pad">
+                <label for="loading_point">Loading Point: </label>
+                <input id="loading_point" type="text" formControlName="loading_point" class="form-control"> 
+               
+            </div>
+            <div class="col-sm-4 col-pad">
+                <label for="unloading_point">Unloading Point: </label>
+                <input id="unloading_point" type="text"  formControlName="unloading_point" class="form-control"> 
+            </div>
+            <div class="row" style="margin-top:5%">
+                <div class="col-sm-4 col-pad">
+                    <label for="fare">Fare Rs: </label>
+                    <input id="fare" type="text" formControlName="fare" class="form-control">
+                </div>
+                <div class="col-sm-4 col-pad">
+                    <label for="advance">Advance Rs: </label>
+                    <input id="advance" type="text" formControlName="advance" class="form-control">
+                </div>
+                <div class="col-sm-4 col-pad">
+                    <label for="remaining">POD Rs: </label>
+                    <input id="remaining" type="text" formControlName="remaining" class="form-control">
+                </div>
+            </div>
+            <div class="row" style="margin-top:5%">
+                <div class="col-sm-4 col-pad">
+                    <label for="fare">Pay to driver Rs: </label>
+                    <input id="fare" type="text" formControlName="fare" class="form-control">
+                </div>
+                <div class="col-sm-4 col-pad">
+                    <label for="advance">Diesel Rs: </label>
+                    <input id="advance" type="text" formControlName="advance" class="form-control">
+                </div>
+                <div class="col-sm-4 col-pad">
+                    <label for="remaining">Litters: </label>
+                    <input id="remaining" type="text" formControlName="remaining" class="form-control">
+                </div>
+            </div>
+            <div class="row" style="margin-top:5%">
+                <div class="col-sm-4 col-pad">
+                    <label for="fare">Others expence: </label>
+                    <input id="fare" type="text" formControlName="fare" class="form-control">
+                </div>
+                <div class="col-sm-4 col-pad">
+                    <label for="advance">Loading Date: </label>
+                    <input id="advance" type="text" formControlName="advance" class="form-control">
+                </div>
+                <div class="col-sm-4 col-pad">
+                    <label for="remaining">Unloading Date: </label>
+                    <input id="remaining" type="text" formControlName="remaining" class="form-control">
+                </div>
+            </div>
+        </div>
+    </form>

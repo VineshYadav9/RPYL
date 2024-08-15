@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+/* .content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    overflow: auto;
+    width: 80%;
+  } */
+
+  @import url("https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css");
+
+.row {
+    --bs-gutter-x: 0 !important;
+}
+/* .dash {
+  position: relative !important;
+} */

@@ -1,0 +1,44 @@
+<div style="margin: 5%;">
+    <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+        <div class="row">
+            <div class="col-sm-4 col-pad">
+                <label for="product">Product: </label>
+                <select  id="product"  formControlName="product" class="form-control">  
+                    <option disabled>Select Product</option>  
+                    <option>Product1</option>  
+                    <option>Product2</option>  
+                </select>  
+            </div>
+            <div class="col-sm-4 col-pad">
+                <label for="unit">Unit: </label>
+                <select  id="unit"  formControlName="unit" class="form-control">  
+                    <option disabled>unit</option>  
+                    <option>2</option>  
+                    <option>3</option>  
+                </select>  
+               
+            </div>
+            <div class="col-sm-4 col-pad">
+                <label for="quantity">Quantity: </label>
+                <select  id="quantity"  formControlName="quantity"  class="form-control">  
+                    <option disabled>Quantity</option>  
+                    <option>2</option>  
+                    <option>3</option>  
+                </select>  
+            </div>
+            <div class="row" style="margin-top:5%">
+                <div class="col-sm-4 col-pad">
+                    <label for="last-name">Rs: </label>
+                    <input id="price" type="text" formControlName="price" class="form-control">
+                </div>
+                <div class="col-sm-4 col-pad">
+                    <label for="last-name">Date: </label>
+                    <input id="last-name" type="text" formControlName="lastName" class="form-control">
+                </div>
+                <div class="col-sm-4 col-pad">
+                    <label for="last-name">Comments: </label>
+                    <input id="last-name" type="text" formControlName="lastName" class="form-control">
+                </div>
+            </div>
+        </div>
+    </form>

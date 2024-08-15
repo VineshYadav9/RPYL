@@ -1,0 +1,59 @@
+.dash{
+    background-color:green;
+    height: 48px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hide;
+}
+.pd10{
+    padding: 10px;;
+}
+
+button.btn_html {
+    background-color: #4abb44;
+    color: #fff;
+    padding: 5px 20px;
+    width: 200px;
+}
+button.btn_chart{
+    background-color: #8d8d8d;
+    color: #fff;
+    padding: 5px 20px;
+    width: 200px;
+}
+button.btn_html :hover, button.btn_chart {
+    background:none !important;
+}
+.btn_alignemet {
+    width: 57%;
+    margin: 0 auto;
+}
+.logo_right img{ 
+    width: 69%;
+    float: right;
+} 
+
+
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    /*color: black;*/
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
